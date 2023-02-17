@@ -1,5 +1,6 @@
 * {
     font-family: 'Mukta', sans-serif;
+    margin:0;
 }
 
 
@@ -25,8 +26,11 @@ li:hover{
 
 .container {
     display: flex;
+    position: fixed;
+    width: 100%;;
     justify-content: center;
     border: 1px solid black;
+    background-color: #fff;
     
 
 }
